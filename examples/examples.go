@@ -1,6 +1,6 @@
 package examples
 
-import "github.com/Inkeliz/go-opencl/opencl"
+import "github.com/bbedward/go-opencl/opencl"
 
 // getFirstDevice returns the first available OpenCL device of type deviceType.
 func getFirstDevice(deviceType opencl.DeviceType) opencl.Device {

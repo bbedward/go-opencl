@@ -1,6 +1,6 @@
 package examples
 
-import "github.com/Inkeliz/go-opencl/opencl"
+import "github.com/bbedward/go-opencl/opencl"
 
 func doMatrixMultiplication(device opencl.Device, dataSize int) {
 	context, err := device.CreateContext()
